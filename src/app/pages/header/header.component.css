@@ -19,13 +19,15 @@
 
 .top-left ul {
     display: flex;
-    margin-left: 3rem;
 }
 
 .top .slash {
     border-left: solid 1px var(--grey50);
 }
+/* a {
+    padding-right:2rem;
 
+} */
 .top a {
     text-decoration: none;
 }
@@ -45,6 +47,8 @@
 
 ul, li {
     list-style-type: none;
+    display: flex;
+    padding-left:1rem;
 }
 
 .header{
@@ -67,24 +71,13 @@ ul, li {
 
 }
 
-/* a{
-    padding:3px 15px;
-}
-
-
-
-
-
+/* 
 .filter a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-a:hover {
-    
 }
 
 
